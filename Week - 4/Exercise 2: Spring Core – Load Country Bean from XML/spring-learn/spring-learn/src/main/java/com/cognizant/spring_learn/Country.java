@@ -1,6 +1,7 @@
 public class Country {
     private String code;
     private String name;
+    private String location;
 
     public Country() {
         LoggerFactory.getLogger(Country.class).debug("Inside Country Constructor.");
