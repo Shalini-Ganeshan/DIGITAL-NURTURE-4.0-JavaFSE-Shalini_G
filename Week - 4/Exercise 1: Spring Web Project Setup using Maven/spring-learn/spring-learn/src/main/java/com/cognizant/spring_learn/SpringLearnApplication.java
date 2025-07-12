@@ -7,14 +7,9 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class SpringLearnApplication {
 
 	public static void main(String[] args) {
-
 		Logger LOGGER = LoggerFactory.getLogger(SpringLearnApplication.class);
 		LOGGER.info("START");
 		SpringApplication.run(SpringLearnApplication.class, args);
 		LOGGER.info("END");
 
-
-
 	}
-
-}
