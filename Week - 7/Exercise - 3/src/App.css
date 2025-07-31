@@ -1,0 +1,31 @@
+.App {
+  font-family: 'Segoe UI', sans-serif;
+  padding: 30px;
+  background-color: #f0f8ff;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+button {
+  margin: 8px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid #aaa;
+}
+
+.counter-section,
+.welcome-section,
+.synthetic-event-section,
+.currency-section {
+  margin-top: 25px;
+  padding: 15px;
+  background-color: #fff;
+  border-radius: 8px;
+  max-width: 400px;
+  box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+}
